@@ -16,7 +16,6 @@ class ModelState(TypedDict):
 def agent():
     model = init_chat_model("llama3.2:1b-instruct-q4_K_M", model_provider='ollama', configurable_fields='any')
     
- 
     def tutor(state: ModelState) -> ModelState:
         return {
             **state,
