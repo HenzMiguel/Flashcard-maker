@@ -12,9 +12,10 @@ Troque o src/.streamlit/secrets_example.toml para com valores corretos. Para cri
 Pesquisa por meio de LLMs de forma a explicar como um tutor pessoal. OBS: ele ainda não tem acesso a internet e alucina ao dar nome aos chats
 
 ### TODO:
-- [ ] Adicionar pesquisa a internet
+- [x] Adicionar pesquisa a internet
 - [ ] Consertar a alucinação na escrita dos tópicos. (provelmente finetunning ou RL)
 - [ ] Adicionar conectividade com Obsidian e Notion. (RAG simples)
+
 ## Exercises:
 Criação de listas de exercicios a partir de um tópico, podendo especificar dificuldade e quantidade de questões.
 
